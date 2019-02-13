@@ -1,0 +1,66 @@
+\documentclass[handout,nooutcomes,noauthor,12pt]{ximera}
+\input{preamble.tex}
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+\outcome{Derivative Rules}
+
+\author{Kevin James}
+
+\title{Derivative Rules}
+
+\begin{document}
+	\begin{abstract}
+		This handout contains the derivative rule patterns.
+	\end{abstract}
+	\maketitle
+	\begin{enumerate}[label=\arabic*.]
+		\item $\dfrac{d}{d ( \ )}\text{constant} = 0$
+		\vspace{5mm}
+		\item $ \dfrac{d}{d( \ )} \text{variable} = 1 $
+		\vspace{5mm}
+		\item $ \dfrac{d}{d(\text{ })} \text{something}^\text{number} = \text{number} \cdot \text{something}^{\text{number}-1} \cdot \dfrac{d}{d( \ )} \text{something} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{d ( \ )} \left(\text{constant} \cdot \text{something}\right) = \text{constant} \cdot \dfrac{d}{d ( \ )}(\text{something}) $
+		\item $\dfrac{d}{d ( \ )}\left(\text{first} \pm \text{second} \right) = \dfrac{d}{d ( \ )} \text{first} \pm \dfrac{d}{d ( \ )} \text{second}$
+		\vspace{5mm}
+		\item $\dfrac{d}{d ( \ )}\left(\text{first} \cdot \text{second} \right) = \dfrac{d}{d ( \ )} \text{first} \cdot \text{second} + \text{first} \cdot \dfrac{d}{d ( \ )} \text{second}$
+		\vspace{5mm}
+		\item $ \dfrac{d}{d ( \ )} \left( \dfrac{\text{top}}{\text{bottom}} \right) = \dfrac{\frac{d}{d( \ )} \text{top} \cdot \text{bottom} - \text{top} \cdot \frac{d}{d( \ )}\text{bottom}}{\text{bottom}^2} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{d( \ )} e^{\text{something}} = e^{\text{something}} \cdot \dfrac{d}{d( \ )} \text{something} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{d( \ )} \ln(\text{something}) = \dfrac{1}{\text{something}} \cdot \dfrac{d}{d( \ )} \text{something} $
+		\vspace{5mm}
+		
+		\clearpage
+		
+		\item $\dfrac{d}{d ( \ )}\sin(\text{something}) = \cos(\text{something}) \cdot \frac{d}{d( \ )}\text{something}$
+		\vspace{5mm}
+		\item $\dfrac{d}{d ( \ )}\cos(\text{something}) = -\sin(\text{something}) \cdot \frac{d}{d( \ )}\text{something}$
+		\vspace{5mm}
+		\item $\dfrac{d}{d ( \ )}\tan(\text{something}) = \sec^2(\text{something}) \cdot \frac{d}{d( \ )}\text{something}$
+		\vspace{5mm}
+		\item $\dfrac{d}{d ( \ )}\csc(\text{something}) = -\csc(\text{something})\cot(\text{something}) \cdot \frac{d}{d( \ )}\text{something}$
+		\vspace{5mm}
+		\item $\dfrac{d}{d ( \ )}\sec(\text{something}) = \sec(\text{something})\tan(\text{something}) \cdot \frac{d}{d( \ )}\text{something}$
+		\vspace{5mm}
+		\item $\dfrac{d}{d ( \ )}\cot(\text{something}) = -\csc^2(\text{something}) \cdot \frac{d}{d( \ )}\text{something}$
+		\item $ \dfrac{d}{d( \ )}\arcsin(\text{something}) = \dfrac{1}{\sqrt{1-\text{something}^2}} \cdot \dfrac{d}{d( \ )}\text{something} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{d( \ )}\arctan(\text{something}) = \dfrac{1}{1+\text{something}^2} \cdot \dfrac{d}{d( \ )}\text{something} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{d( \ )}\arcsec(\text{something}) = \dfrac{1}{\text{something} \cdot \sqrt{\text{something}^2-1}} \cdot \dfrac{d}{d( \ )}\text{something} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{d( \ )}\arccos(\text{something}) = -\dfrac{d}{d( \ )}\arcsin(\text{something})$
+		\vspace{5mm}
+		\item $ \dfrac{d}{d( \ )}\arccot(\text{something}) = -\dfrac{d}{d( \ )}\arctan(\text{something})$
+		\vspace{5mm}
+		\item $ \dfrac{d}{d( \ )}\arccsc(\text{something}) = -\dfrac{d}{d( \ )}\arcsec(\text{something})$
+		\vspace{5mm}
+	\end{enumerate}
+
+\end{document}

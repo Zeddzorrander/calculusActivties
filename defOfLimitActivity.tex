@@ -1,0 +1,76 @@
+\documentclass[handout,nooutcomes,noauthor,12pt]{Ximera}
+\input{preamble.tex}
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+\outcome{understand closeness in the context of the definition of a limit}
+
+\author{Kevin James}
+
+\title{Definition of Limit Activity}
+
+\begin{document}
+	\begin{abstract}
+		This activity is intended to help students gain a better understanding of "closeness" in the intuitive definition of a limit.
+	\end{abstract}
+	\maketitle
+	\textbf{General Directions:}  Answer each question thoroughly.  Incorrect answers with work shown may receive partial credit, but unsubstantiated answers will receive NO CREDIT.  I do not want (decimal) approximations unless specifically asked for.  I want the exact numbers.  Justify all claims using calculus concepts (i.e., theorems, definitions, etc.).  I am looking for mathematical logic and reasoning.  Show all of your work!! Explain!  Explain!  Explain!
+	
+	Go to the In-Class Activities section of Blackboard and open the Definition of Limit activity.  
+	
+	
+	\begin{enumerate}[label=\arabic*]
+		\item Use the graph to estimate $ \lim\limits_{x \to 0}f(x) $.  Then update the values of $ L $ and $ c $ in the tool.    
+		\begin{enumerate}[label=\alph*]
+			\item Set Radius to $ 0.5 $.  Use the $ a $ and $ b $ sliders (or the points on the $ x $-axis) to find the largest interval, centered at $ x=0 $, such that $ f $ maps any $x$-value in this interval to within $ 0.5 $ units of $ L $.
+			\vspace{\stretch{1}}
+			\item Set Radius to $ 0.1 $.  Use the $ a $ and $ b $ sliders (or the points on the $ x $-axis) to find the largest interval, centered at $ x=0 $, such that $ f $ maps any $x$-value in this interval to within $ 0.1 $ units of $ L $.
+			\vspace{\stretch{1}}
+			\item Set Radius to $ 0.01 $.  Use the $ a $ and $ b $ sliders (or the points on the $ x $-axis) to find the largest interval, centered at $ x=0 $, such that $ f $ maps any $x$-value in this interval to within $ 0.01 $ units of $ L $.
+			\vspace{\stretch{1}}
+		\end{enumerate}
+		\clearpage
+		\item Now set $ L=1 $, but leave $ c $ set to $ 0 $.
+		\begin{enumerate}[label=\alph*]
+			\item Set Radius to $ 3 $.  Use the $ a $ and $ b $ sliders (or the points on the $ x $-axis) to find the largest interval, centered at $ x=0 $, such that $ f $ maps any $x$-value in this interval to within $ 3 $ units of $ L $.
+			\vspace{1cm}
+			\item Does this contradict that $ \lim\limits_{x \to 0}f(x)=4 $?  Explain your answer.
+		\end{enumerate}
+
+		\clearpage
+		
+		\item In this problem we will investigate $ \lim\limits_{x \to 1}f(x) $.  Notice, this limit doesn't exist since $ \lim\limits_{x \to 1^-}f(x) \neq \lim\limits_{x \to 1^+}f(x) $.  We will investigate three values for $ L $: $ 2, 3 $, and $ 2.5 $.
+		\begin{enumerate}[label=\alph*]
+			\item Let $ L=2, c=1 $, and Radius $ =1.5 $.  Use the $ a $ and $ b $ sliders (or the points on the $ x $-axis) to find the largest interval, centered at $ x=1 $, such that $ f $ maps any $x$-value in this interval to within $ 1.5 $ units of $ L $.
+			\vspace{1.5cm}
+			\begin{enumerate}
+				\item Does this contradict that $ \lim\limits_{x \to 1}f(x) = DNE$?  Explain your answer.
+				\vspace{\stretch{1}}
+				\item Change Radius to $ 0.5 $.  Use the $ a $ and $ b $ sliders (or the points on the $ x $-axis) to find the largest interval, centered at $ x=1 $, such that $ f $ maps any $x$-value in this interval to within $ 0.5 $ units of $ L $.  What does this tell you?  Explain.
+				\vspace{\stretch{1}}
+			\end{enumerate}
+		
+			\clearpage
+			
+			\item Let $ L=3, c=1 $, and Radius $ =1.5 $.
+			\begin{enumerate}
+				\item Use the $ a $ and $ b $ sliders (or the points on the $ x $-axis) to find the largest interval, centered at $ x=1 $, such that $ f $ maps any $x$-value in this interval to within $ 1.5 $ units of $ L $.
+				\vspace{\stretch{1}}
+				\item Find a value for Radius such that there is no interval on the $x$-axis such that $x$-values get mapped to the interval created  by Radius.
+				\vspace{\stretch{1}}
+				\item Explain how this proves that $ \lim\limits_{x \to 1}f(x) \neq 3 $.
+				\vspace{\stretch{1}}
+			\end{enumerate}
+		
+			\clearpage
+		
+			\item Let $L=2.5$ and $c=1$.  Show that $ \lim\limits_{x \to 1}f(x) \neq 2.5 $.
+			\vspace{\stretch{1}}
+		\end{enumerate}
+		\item Explain how the intervals in this activity connect to the concept of "closeness" in the intuitive definition of a limit.
+		\vspace{\stretch{1}}
+	\end{enumerate}
+\end{document}

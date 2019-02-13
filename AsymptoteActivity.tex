@@ -1,0 +1,68 @@
+\documentclass[handout,nooutcomes,noauthor]{Ximera}
+\input{preamble.tex}
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+\outcome{Use limits to determine vertical asyptotes}
+\outcome{Use limits at infinity to determine horizontal asymptotes}
+
+\author{Kevin James}
+
+\title{Asmyptote Activity}
+
+\begin{document}
+	\begin{abstract}
+		This activity is intended to increase students understanding of the connection between asymptotes and limits.
+	\end{abstract}
+	\maketitle
+	\textbf{Directions:}  Answer each question thoroughly.  Incorrect answers with work shown may receive partial credit, but unsubstantiated answers will receive NO CREDIT.  I do not want (decimal) approximations unless specifically asked for.  I want the exact numbers.  Justify all claims using calculus concepts (i.e., theorems, definitions, etc.).  I am looking for mathematical logic and reasoning.  Show all of your work!! Explain!  Explain!  Explain!  Four points will be dedicated to how you perform as a group.
+	\vspace{5mm}
+	
+	\begin{enumerate}[label=\arabic*]
+		\item Take 5 minutes and discuss with your group everything you remember about asymptotes from precalculus.  Write a brief summary of this discussion here.
+		\vspace{\stretch{1}}
+		\item Copy each definition completely from section 6.2 or section 6.3:
+ 		\begin{itemize}
+ 			\item Vertical asymptote:
+ 			\vspace{2cm}
+ 			\item Horizontal asymptote:
+ 			\vspace{2.5cm}
+ 		\end{itemize}
+		\clearpage
+		
+		\begin{definition}\index{dominance}
+			We say that a function $ g $ \dfn{dominates} function $ f $ provided that \\*
+			$ \lim\limits_{x \to a}\dfrac{f(x)}{g(x)} = 0 $ or $ \lim\limits_{x \to a} \dfrac{g(x)}{f(x)} = \pm \infty $ where $a$ can also be  $\pm \infty$.
+		\end{definition}
+		\vspace{5mm}
+		\item Given $ r(x)=5x^2-3x+7 $ and $ k(x)=-2x^3+4x^2-7x+5 $, use the definition of dominance to determine which function dominates the other.
+		\vspace{\stretch{1}}
+		\item Given $ n(t)=4t^6-3t^2+18t-7 $ and $ m(t)=5t^4-6t $, use the definition of dominance to determine which function dominates the other.
+		\vspace{\stretch{1}}
+		\item Given $ p(z)=-3z^2-2z+7 $ and $ q(z) = 2z^2-8 $, use the definition of dominance to determine which function dominates the other.  What is $ \lim\limits_{z \to \infty} \dfrac{p(z)}{q(z)} $?
+		\vspace{\stretch{1}}
+		\item Based on these examples, make a conjecture about how the degree of the polynomials in the numerator and denominator of a rational expression relate to the horizontal asymptotes of a rational function.  Can you prove your conjecture?
+		\vspace{\stretch{1}} 
+		
+		\clearpage
+		
+		\item Use dominance to quickly determine the value of each limit.  There is no need to show work.
+		\begin{enumerate}[label=\alph*]
+			\item $ \lim\limits_{r \to -\infty} \dfrac{-2r^2+5r-7}{3r^2-7} = $ 
+			\vspace{5mm}
+			\item $ \lim\limits_{n \to \infty} \dfrac{-8n^3-4n}{n^4+5n^2-9} = $ 
+			\vspace{5mm}
+			\item $ \lim\limits_{k \to -\infty} \dfrac{-8k^4-2k+12}{2k^2+7} = $ 
+			\vspace{5mm}
+		\end{enumerate}
+		\item Given $ f(x)=\sin(x) $ and $ g(x)=x^2 $, guess which function is dominant.  Why?  Explain!
+		
+		\clearpage
+		
+		\item Find all asymptotes of $ Q(r)=\dfrac{r^2+r-6}{\sqrt{r^4-16}} $.  Remember to support your answers with appropriate calculus calculations and explanations.
+		\vspace{\stretch{1}}
+	\end{enumerate}
+\end{document}

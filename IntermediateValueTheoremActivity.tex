@@ -1,0 +1,45 @@
+\documentclass[handout,nooutcomes,noauthor,12pt]{ximera}
+\input{preamble.tex}
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+\outcome{Understand and apply the Intermediate Value Theorem}
+
+\author{Kevin James}
+
+\title{The Intermediate Value Theorem}
+
+\begin{document}
+	\begin{abstract}
+		We will investigate and apply the Intermediate Value Theorem.
+	\end{abstract}
+	\maketitle
+	\textbf{General Directions:}  Answer each question thoroughly.  Incorrect answers with work shown may receive partial credit, but unsubstantiated answers will receive NO CREDIT.  I do not want (decimal) approximations unless specifically asked for.  I want the exact numbers.  Justify all claims using calculus concepts (i.e., theorems, definitions, etc.).  I am looking for mathematical logic and reasoning.  Show all of your work!! Explain!  Explain!  Explain!  \textbf{No graphing calculators are allowed for this activity.}
+	
+	\begin{theorem}[Intermediate Value Theorem]\label{theorem:IVT}\index{Intermediate Value Theorem}
+		If $f$ is a continuous function for all $x$ in the closed interval
+		$[a,b]$ and $d$ is between $f(a)$ and $f(b)$, then there is a number
+		$c$ in $(a, b)$ such that $f(c) = d$.
+	\end{theorem}
+	
+	\clearpage
+
+	\begin{enumerate}[label=\arabic*]
+		\item Given $ p(k) = k^3-3k+1 $ , we want to use the Intermediate Value Theorem to estimate the zero of $ p $ on $ [0, 1] $.
+		\begin{enumerate}[label=\alph*]
+			\item First, we must establish the conditions of the Intermediate Value Theorem (IVT) hold for $ p $ on $ [0, 1] $.
+			\vspace{3cm}
+			\item What value should we choose for $ d $ in the theorem if we want to find a root of $ p $?  Is this choice for $ d $ between $ p(0) $ and $ p(1) $?
+			\vspace{3cm}
+			\item Parts (a) and (b) allow us to use IVT to conclude that $ p $ \textbf{must} have a root on $ [0, 1] $.  To use IVT to find the root, we need to split the interval $ [0, 1] $ into two intervals: $ \left[0, \frac{1}{2}\right] $ and $ \left[\frac{1}{2}, 1\right] $.  Use IVT to determine which of these two intervals contains the root.  Make sure to establish the conditions of the theorem.  The conclusion alone is not sufficient.
+			
+			\clearpage
+			
+			\item Repeat the steps in part (c) until you have estimated the root to at least one decimal place acuracy.
+		\end{enumerate}
+	\end{enumerate}
+
+\end{document}

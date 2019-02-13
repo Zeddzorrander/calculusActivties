@@ -1,0 +1,67 @@
+\documentclass[handout,nooutcomes,noauthor,12pt]{ximera}
+\input{preamble.tex}
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+\outcome{Derivative Rules}
+
+\author{Kevin James}
+
+\title{Derivative Rules}
+
+\begin{document}
+	\begin{abstract}
+		This handout contains the derivative rule patterns.
+	\end{abstract}
+	\maketitle
+	Let $ f $ and $g$ be functions and let $k$ be a constant.
+	\begin{enumerate}[label=\arabic*.]
+		\item $\dfrac{d}{dv}k = 0$
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv} v = 1 $
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv} f^k = kf^{k-1} \cdot \dfrac{df}{dv} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv} \left(k \cdot f\right) = k \cdot \dfrac{df}{dv} $
+		\item $\dfrac{d}{dv}\left(f \pm g \right) = \dfrac{df}{dv} \pm \dfrac{dg}{dv}$
+		\vspace{5mm}
+		\item $\dfrac{d}{dv}\left(f \cdot g \right) = \dfrac{df}{dv} \cdot g + f \cdot \dfrac{dg}{dv} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv} \left( \dfrac{f}{g} \right) = \dfrac{\frac{df}{dv} \cdot g - f \cdot \frac{dg}{dv}}{g^2} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv} e^{f} = e^{f} \cdot \dfrac{df}{dv}  $
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv} \ln(f) = \dfrac{1}{f} \cdot \dfrac{df}{dv}  $
+		\vspace{5mm}
+		
+		\clearpage
+		
+		\item $\dfrac{d}{dv}\sin(f) = \cos(f) \cdot \frac{df}{dv}$
+		\vspace{5mm}
+		\item $\dfrac{d}{dv}\cos(f) = -\sin(f) \cdot \frac{df}{dv}$
+		\vspace{5mm}
+		\item $\dfrac{d}{dv}\tan(f) = \sec^2(f) \cdot \frac{df}{dv}f$
+		\vspace{5mm}
+		\item $\dfrac{d}{dv}\csc(f) = -\csc(f)\cot(f) \cdot \frac{df}{dv}$
+		\vspace{5mm}
+		\item $\dfrac{d}{dv}\sec(f) = \sec(f)\tan(f) \cdot \frac{df}{dv}$
+		\vspace{5mm}
+		\item $\dfrac{d}{dv}\cot(f) = -\csc^2(f) \cdot \frac{df}{dv}$
+		\item $ \dfrac{d}{dv}\arcsin(f) = \dfrac{1}{\sqrt{1-f^2}} \cdot \dfrac{df}{dv} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv}\arctan(f) = \dfrac{1}{1+f^2} \cdot \dfrac{df}{dv} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv}\arcsec(f) = \dfrac{1}{f \cdot \sqrt{f^2-1}} \cdot \dfrac{df}{dv} $
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv}\arccos(f) = -\dfrac{d}{dv}\arcsin(f)$
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv}\arccot(f) = -\dfrac{d}{dv}\arctan(f)$
+		\vspace{5mm}
+		\item $ \dfrac{d}{dv}\arccsc(f) = -\dfrac{d}{dv}\arcsec(f)$
+		\vspace{5mm}
+	\end{enumerate}
+
+\end{document}
